@@ -34,3 +34,4 @@ resource "azurerm_subnet" "example" {
       address_prefixes    = [each.value.address_prefix]
   }
 #got to write something here
+#newly added line
